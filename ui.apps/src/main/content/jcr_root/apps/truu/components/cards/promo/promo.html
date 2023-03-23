@@ -1,0 +1,13 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+<sly data-sly-call="${clientlib.all@categories='truu.site'}"/>
+	<div class="promocard">
+		<div class="promo-contentcard">
+			<h1 class="title">${promo.title}</h1>
+			<h1 class="subtitle">${promo.subtitle}</h1>
+			<p class="description">${promo.description @ context = 'html'}</p>
+		</div>
+		<div class="promo-imgcard">
+			<img class="imagesize" src=${properties.img} alt="Tru">
+		</div>
+	</div>
+</sly>

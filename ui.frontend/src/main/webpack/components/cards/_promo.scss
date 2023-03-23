@@ -1,0 +1,40 @@
+.promocard{
+            width:100%;
+            height:50%;
+            display:flex;
+}
+
+.promo-contentcard{
+    		width:45%;
+            background:lightblue;
+            font-size:18px;
+
+            text-align:center;
+            padding:60px;
+}
+
+.promo-contentcard.title{
+
+	color:white;
+}
+
+.promo-contentcard.subtitle{
+
+color:grey;
+}
+
+.promo-contentcard.description{
+    Color:black;
+
+}
+
+.promo-imgcard{
+        width:50%;
+        background:lightgreen;
+}
+
+.promo-imgcard .imagesize{
+        height:600px;
+        width:600px;
+    padding-left:50px;
+    }

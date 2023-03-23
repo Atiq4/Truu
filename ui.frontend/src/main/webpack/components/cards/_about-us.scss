@@ -1,0 +1,43 @@
+.tru_about-uscard{
+        background-image: url('https://img.freepik.com/free-vector/pastel-soft-peach-gradient-blur-background_53876-98035.jpg');
+        width:100%;
+        height:100%;
+        display:flex;
+    	padding:25px;
+    }
+
+.tru_about-us-contentcard{
+    		width:100%;
+            background:transparent;
+            font-size:23px;
+            text-align:center;
+            padding:60px;
+        }
+
+.tru_about-us-contentcard .title{
+	color:#002F63;
+	font-size:175px;
+	margin:25px;
+ }
+
+.tru_about-us-contentcard .description{
+    Color:#8F8F8F;
+    font-size:25px !important;
+    width:75%;
+ }
+
+.tru_about-us-contentcard .linkTitle{
+    color:white;
+    text-decoration:none;
+    font-size:25px;
+ }
+
+ .tru_about-us-contentcard .button{
+ 			 color:black;
+             width:280px;
+             height:70px;
+             background-color:#001128;
+             border-radius:35px;
+             margin:5%;
+  }
+

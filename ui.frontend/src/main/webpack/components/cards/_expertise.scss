@@ -1,0 +1,96 @@
+.tru_expertisecard{
+    	background-image: url('https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg');
+    	width:90%;
+    	padding:80px;
+        border-radius:30px;
+    	margin:20px;
+    	text-align:left;
+    	display:flex;
+
+}
+
+.tru_expertisecard .maincard{
+        background-color:transparent;
+    	width:100%;
+        display:flex;
+        flex-direction:row;
+    	font-size:18px;
+        padding:30px;
+    	border-radius:25px;
+    	rotate:-8deg;
+}
+
+
+.tru_expertisecard .minicard{
+        background-color:white;
+        width:80%;
+        padding:50px;
+        border-radius:30px;
+    	margin:10px;
+		text-align:left;
+}
+
+
+.tru_expertisecard .numcard{
+    	font-size:25px;
+    	margin-top:-20px;
+    	margin-bottom:80px;
+}
+
+
+.tru_expertisecard .smallcard{
+        margin-top:30px;
+}
+
+
+.tru_expertisecard .title{
+        font-size:150px;
+        color:#002F63;
+       	margin:60px;
+}
+
+
+.tru_expertisecard .heading{
+        font-size:24px;
+
+}
+
+
+.tru_expertisecard .para{
+    	font-size:18px;
+    	margin:30px;
+    	margin:70px;
+}
+
+
+.tru_expertisecard .description{
+    	font-size:18px;
+    	margin:30px;
+}
+
+
+.tru_expertisecard .linkTitle{
+    	text-decoration:none;
+        color:black;
+}
+
+
+.tru_expertisecard .button{
+ 		color:black;
+        width:22%;
+        height:75px;
+        background-color:#141e2f;
+        border-radius:40px;
+    	float: right;
+    	padding-bottom:50px;
+    	margin:-25px;
+}
+
+
+.tru_expertisecard .buttonLink{
+		text-decoration:none;
+    	color:white;
+		font-size:20px;
+    	text-align:align-right;
+}
+
