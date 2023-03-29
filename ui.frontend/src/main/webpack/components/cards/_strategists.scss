@@ -23,35 +23,40 @@
 }
 
 .tru_strategists-imgcard .imagesize{
-        height:675px;
-        width:500px;
-        border-radius:24px;
-        margin:60px;
-        padding-left:0px;
+            height:675px;
+            width:500px;
+            border-radius:24px;
+            margin:60px;
+            padding-left:0px;
 }
 
 
 .tru_strategists-contentcard .title{
             margin-top: 0px;
             margin-bottom:0px;
-        	color:#002F63;
         	font-size:78px;
         	line-height:80px;
+        	background: linear-gradient(to right, #042955 , #1CA0A5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 
 }
 
 .tru_strategists-contentcard .description{
-    Color:#8F8F8F;
-    font-size:25px !important;
-    width:75%;
+            Color:#445666;
+            font-size:25px !important;
+            width:75%;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight:400;
  }
 
 
 .tru_strategists-contentcard .linkTitle{
-     color:black;
-     text-decoration:none;
-     font-size:14px;
-     text-align:left;
+             color:black;
+             text-decoration:none;
+             font-size:14px;
+             text-align:left;
 }
 
 
