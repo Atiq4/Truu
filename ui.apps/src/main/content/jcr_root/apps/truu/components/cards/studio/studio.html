@@ -1,13 +1,33 @@
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
-	<sly data-sly-call="${clientlib.all@categories='truu.studio'}"/>
+	<sly data-sly-call="${clientlib.all@categories='truu.site'}"/>
 	<div class="tru_studiocard">
 		<div class="tru_studio-contentcard">
-			<h1 class="title">${properties.title}</h1>
-			<p class="description">${properties.description @ context = 'html'}</p>
+			<h1 class="heading">${properties.title}</h1>
 			<button class="button"><a href=${properties.asset} class="linkTitle">${properties.linkTitle}----></a></button>
 		</div>
-		<div class="tru_studio-imgcard">
-			<img class="imagesize" src=${properties.img} alt="Tru">
+		<div class="maincontainer" data-sly-list="${resource.listChildren}">
+			<div class="maincard" data-sly-list.fields="${item.listChildren}">
+				<div class="multi-card">
+					<div class="tru_studiocard-minicard">
+						<div class="tru_studiocard-minicard-imgcard">
+							<img class="imagesize" src=${fields.miniImg} alt="Tru">
+						</div>
+						<div>
+							<p class="minitext">${fields.miniText @ context = 'html'}</p>
+							<h1 class="minititle">${fields.miniTitle} </h1>
+						</div>
+					</div>
+					<h1 class="title">${fields.title} </h1>
+					<div class="description">
+						<p>${fields.desc1 @ context = 'html'}</p>
+						<p>${fields.desc2 @ context = 'html'}</p>
+						<p>${fields.desc3 @ context = 'html'}</p>
+					</div>
+					<div class="tru_studiocard-maincard-imgcard">
+						<img class="imagesize" src=${fields.img} alt="Tru">
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </sly>

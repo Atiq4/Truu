@@ -4,7 +4,7 @@
     <div class="tru_expertisecard">
         <div data-sly-list="${resource.listChildren}">
             <h1 class="title">${properties.title} </h1>
-            <p class="desc"> ${properties.description @ context = 'html'}</p>
+            <p class="para"> ${properties.description}</p>
             <div class="maincard" data-sly-list.fields="${item.listChildren}">
                 <div class="minicard">
                     <h1 class="numcard"> ${fields.number}---- </h1>
@@ -20,3 +20,4 @@
             </button>
         </div>
     </div>
+</sly>

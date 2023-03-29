@@ -15,15 +15,25 @@
         }
 
 .tru_about-us-contentcard .title{
-	color:#002F63;
-	font-size:175px;
-	margin:25px;
+            font-size:175px;
+            margin:25px;
+            background: linear-gradient(to right, #042955 , #1CA0A5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
  }
 
 .tru_about-us-contentcard .description{
-    Color:#8F8F8F;
-    font-size:25px !important;
-    width:75%;
+            color:#445666;
+            font-size:27px;
+            width:75%;
+            line-height:32px;
+            margin:175px;
+            margin-top:0px;
+            margin-bottom:0px;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight:400;
  }
 
 .tru_about-us-contentcard .linkTitle{
