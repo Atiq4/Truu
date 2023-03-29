@@ -1,0 +1,67 @@
+.tru_mdecard{
+        background-image: url('https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg');
+        width:100%;
+        height:30%;
+        display:flex;
+    }
+
+.tru_mde-contentcard{
+    		width:40%;
+    		height:30%;
+            background:transparent;
+            text-align:left;
+            padding-left:85px;
+}
+
+.tru_mde-contentcard .title{
+            margin-top: 0px;
+            margin-bottom:0px;
+        	font-size:78px;
+            text-decoration:underline 1px;
+            line-height:90px;
+            background: linear-gradient(to right, #042955 , #1CA0A5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+.tru_mde-contentcard .linkTitle{
+     color:black;
+     text-decoration:none;
+     font-size:14px;
+     text-align:left;
+}
+
+
+.tru_mde-contentcard .button{
+  			  color:white;
+              width:130px;
+              height:45px;
+              background-color:#001128;
+              border-radius:35px;
+              margin-left:0%;
+              font-size:14px;
+}
+
+.tru_mde-contentcard .numcard{
+    	font: 800 80px Arial;
+    	-webkit-text-fill-color:transparent;
+    	-webkit-text-stroke: 1px;
+    	color:#099DDD;
+    	text-decoration:underline 1px #099DDD;
+    	margin-bottom:0px;
+}
+
+.tru_mde-imgcard{
+            width:50%;
+            height:40%;
+            background:none;
+            border-radius:18px;
+}
+
+.tru_mde-imgcard .imagesize{
+        height:600px;
+        width:100%;
+        padding-left:50px;
+}
+
+

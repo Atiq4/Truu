@@ -1,0 +1,189 @@
+.tru_studiocard{
+        background:#FFFFFF;
+        width:100%;
+        height:30%;
+   		display:flex;
+        flex-direction:row;
+    	align-items: flex-start;
+		padding: 128px 214px;
+		gap: 50px;
+		isolation: isolate;
+}
+
+
+.tru_studiocard .maincontainer{
+        width:40%;
+    	height:50%;
+
+}
+
+
+.tru_studio-contentcard{
+    		width:20%;
+    		height:30%;
+            background:transparent;
+            padding:75px;
+            margin-top:0px;
+        	margin-left: 60px;
+
+}
+
+.tru_studio-contentcard .heading{
+            color:#002F63;
+        	font-size:55px;
+        	line-height:70px;
+    		margin-top: 0;
+
+
+}
+
+.tru_studio-contentcard .linkTitle{
+     color:black;
+     text-decoration:none;
+     font-size:14px;
+     text-align:left;
+}
+
+
+.tru_studio-contentcard .button{
+  			  width:165px;
+              height:50px;
+              color:blue;
+              border-radius:62px;
+              margin-left:0%;
+              font-size:14px;
+}
+
+
+.tru_studiocard .maincard{
+        background-color:transparent;
+    	width:70%;
+    	font-size:18px;
+        padding:30px;
+    	display:flex;
+
+}
+
+.tru_studiocard .multi-card{
+		margin:15px;
+            margin-top:0;
+
+}
+
+.tru_studiocard .maincard .title{
+            margin-top: 20px;
+            margin-bottom:60px;
+        	color:#002F63;
+        	font-size:29px;
+        	line-height:35px;
+}
+
+.tru_studiocard .maincard .description{
+            Color:#8F8F8F;
+            font-size:15px !important;
+            width:95%;
+            display:flex;
+    		justify-content: space-around;
+
+ }
+
+ .tru_studiocard-maincard-imgcard{
+             width:50%;
+             height:30%;
+             background:transparent;
+             border-radius:18px;
+             margin-left:0px;
+ }
+
+ .tru_studiocard-maincard-imgcard .imagesize{
+         height:400px;
+         width:400px;
+         border-radius:12px;
+
+ }
+
+.tru_studiocard-minicard{
+            width:30%;
+            height:5%;
+            background:transparent;
+            display:flex;
+            flex-direction:row;
+            margin-left:-60px;
+}
+
+
+.tru_studiocard-minicard .minititle{
+           	color:#002F63;
+        	font-size:13px;
+        	line-height:0px;
+        	margin-left:14px;
+
+}
+
+.tru_studiocard-minicard .minitext{
+            Color:#8F8F8F;
+            font-size:11px !important;
+            width:300%;
+            margin-left:14px;
+            margin-top:1px;
+}
+
+.tru_studiocard-minicard-imgcard{
+            width:50%;
+            height:30%;
+            background:transparent;
+            border-radius:18px;
+            margin-left:60px;
+}
+
+.tru_studiocard-minicard-imgcard .imagesize{
+        height:40px;
+        width:40px;
+        border-radius:24px;
+        margin:0px;
+        padding-left:0px;
+}
+
+
+
+.tru_studiocard .maincard1{
+        background-color:transparent;
+    	width:70%;
+    	font-size:18px;
+        padding:30px;
+
+
+}
+
+.tru_studiocard .maincard .title1{
+            margin-top: 20px;
+            margin-bottom:60px;
+        	color:#002F63;
+        	font-size:29px;
+        	line-height:35px;
+}
+
+.tru_studiocard .maincard .description1{
+            Color:#8F8F8F;
+            font-size:15px !important;
+            width:95%;
+            display:flex;
+    		justify-content: space-around;
+
+ }
+
+ .tru_studiocard-maincard-imgcard1{
+             width:50%;
+             height:30%;
+             background:transparent;
+             border-radius:18px;
+             margin-left:0px;
+ }
+
+ .tru_studiocard-maincard-imgcard .imagesize1{
+         height:400px;
+         width:400px;
+         border-radius:12px;
+
+ }
+

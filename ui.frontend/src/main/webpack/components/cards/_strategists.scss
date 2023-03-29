@@ -1,0 +1,73 @@
+.tru_strategistscard{
+        background-image: url('https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg');
+        width:100%;
+        height:30%;
+        display:flex;
+    }
+
+.tru_strategists-contentcard{
+    		width:50%;
+    		height:30%;
+            background:transparent;
+            padding-left:60px;
+            padding:33px;
+            margin:100px;
+}
+
+.tru_strategists-imgcard{
+            width:50%;
+            height:30%;
+            background:transparent;
+            border-radius:18px;
+            margin-left:60px;
+}
+
+.tru_strategists-imgcard .imagesize{
+            height:675px;
+            width:500px;
+            border-radius:24px;
+            margin:60px;
+            padding-left:0px;
+}
+
+
+.tru_strategists-contentcard .title{
+            margin-top: 0px;
+            margin-bottom:0px;
+        	font-size:78px;
+        	line-height:80px;
+        	background: linear-gradient(to right, #042955 , #1CA0A5);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+}
+
+.tru_strategists-contentcard .description{
+            Color:#445666;
+            font-size:25px !important;
+            width:75%;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight:400;
+ }
+
+
+.tru_strategists-contentcard .linkTitle{
+             color:black;
+             text-decoration:none;
+             font-size:14px;
+             text-align:left;
+}
+
+
+.tru_strategists-contentcard .button{
+  			  width:120px;
+              height:120px;
+              background-color:#0583D2;
+              border-radius:62px;
+              margin-left:0%;
+              font-size:14px;
+              float:right;
+              color:#0583D2;
+}
+

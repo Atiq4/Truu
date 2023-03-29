@@ -1,0 +1,18 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+	<sly data-sly-call="${clientlib.all@categories='truu.site'}"/>
+		<div  data-sly-list="${resource.listChildren}">
+		<div data-sly-list.fields="${item.listChildren}">
+			<div class="tru_mdecard">
+				<div class="tru_mde-contentcard">
+					<h1 class="numcard">${fields.number}</h1>
+					<h1 class="title">${fields.title}</h1>
+					<button class="button">Learn more</button> <br>
+					<a href=${fields.asset} class="linkTitle">${fields.linkTitle}----></a>
+				</div>
+				<div class="tru_mde-imgcard">
+					<img class="imagesize" src=${fields.img} alt="Tru">
+				</div>
+			</div>
+		</div>
+		</div>
+</sly>

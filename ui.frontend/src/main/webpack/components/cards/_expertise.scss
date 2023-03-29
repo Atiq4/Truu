@@ -1,0 +1,113 @@
+.tru_expertisecard{
+    	background-image: url('https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg');
+    	width:100%;
+    	padding:25px;
+        border-radius:30px;
+    	text-align:left;
+    	display:flex;
+    	margin:50px;
+
+}
+
+.tru_expertisecard .maincard{
+        background-color:transparent;
+    	width:100%;
+        display:flex;
+        flex-direction:row;
+    	font-size:18px;
+        padding:30px;
+    	border-radius:25px;
+    	rotate:-8deg;
+    	margin-bottom:50px;
+}
+
+
+.tru_expertisecard .minicard{
+        background-color:white;
+        width:80%;
+        padding:50px;
+        border-radius:30px;
+    	margin:10px;
+		text-align:left;
+}
+
+
+.tru_expertisecard .numcard{
+    	font-size:25px;
+    	margin-top:-20px;
+    	margin-bottom:80px;
+}
+
+
+.tru_expertisecard .smallcard{
+        margin-top:30px;
+}
+
+
+.tru_expertisecard .title{
+        font-size:150px;
+        margin:60px;
+       	margin-top:0px;
+       	margin-bottom:20px;
+       	background: linear-gradient(to right, #042955 , #1CA0A5);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+
+
+.tru_expertisecard .heading{
+        font-size:24px;
+
+}
+
+
+.tru_expertisecard .para{
+        color:#445666;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight:400;
+    	font-size:23px;
+    	width:50%;
+    	margin:67px;
+    	margin-top:0;
+}
+
+
+.tru_expertisecard .description{
+    	font-size:18px;
+    	margin:30px;
+    	color:#445666;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight:400;
+}
+
+
+.tru_expertisecard .linkTitle{
+    	text-decoration:none;
+        color:black;
+}
+
+
+.tru_expertisecard .button{
+ 		color:black;
+        width:22%;
+        height:75px;
+        background-color:#141e2f;
+        border-radius:40px;
+    	float: right;
+    	padding-bottom:0px;
+    	margin:-25px;
+    	margin-bottom:10px;
+    	margin-right:20px;
+}
+
+
+.tru_expertisecard .buttonLink{
+		text-decoration:none;
+    	color:white;
+		font-size:20px;
+    	text-align:align-right;
+}
+

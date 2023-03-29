@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Studio"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                size="L">
+                <items jcr:primaryType="nt:unstructured">
+                    <style
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Studio"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <general
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="General"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <headingTag
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        fieldLabel="Heading Tag"
+                                        name="./headingTag">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <h1
+                                                jcr:primaryType="nt:unstructured"
+                                                text="H1"
+                                                value="h1"/>
+                                            <h2
+                                                jcr:primaryType="nt:unstructured"
+                                                text="H2"
+                                                value="h2"/>
+                                            <h3
+                                                jcr:primaryType="nt:unstructured"
+                                                text="H3"
+                                                value="h3"/>
+                                            <h4
+                                                jcr:primaryType="nt:unstructured"
+                                                text="H4"
+                                                value="h4"/>
+                                            <h5
+                                                jcr:primaryType="nt:unstructured"
+                                                text="H5"
+                                                value="h5"/>
+                                        </items>
+                                    </headingTag>
+                                    <heading
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Title"
+                                        name="./title"/>
+                                    <options
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                        composite="{Boolean}true"
+                                        fieldLabel="Icon Items">
+                                        <field
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                                            name="./iconItems">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <headingTag
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Heading Tag"
+                                                    name="./headingTag">
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <h1
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="H1"
+                                                            value="h1"/>
+                                                        <h2
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="H2"
+                                                            value="h2"/>
+                                                        <h3
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="H3"
+                                                            value="h3"/>
+                                                        <h4
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="H4"
+                                                            value="h4"/>
+                                                        <h5
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="H5"
+                                                            value="h5"/>
+                                                    </items>
+                                                </headingTag>
+                                                <mini-heading
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Mini Title"
+                                                    name="./miniTitle"/>
+                                                <mini-text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    externalStyleSheet="[/apps/myproject/clientlibs/clientlib-site/css/site.css]"
+                                                    fieldLabel="Mini Text"
+                                                    name="./miniText"/>
+                                                <mini-image
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                    fieldLabel="Mini Image"
+                                                    fileRefernceParameter="./fileRefrence"
+                                                    name="./miniImg"
+                                                    title="Upload Image"/>
+                                                <heading
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                                    fieldLabel="Title"
+                                                    name="./title"/>
+                                                <desc1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    externalStyleSheet="[/apps/myproject/clientlibs/clientlib-site/css/site.css]"
+                                                    fieldLabel="Description"
+                                                    name="./desc1"/>
+                                                <desc2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    externalStyleSheet="[/apps/myproject/clientlibs/clientlib-site/css/site.css]"
+                                                    fieldLabel="Description"
+                                                    name="./desc2"/>
+                                                <desc3
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    externalStyleSheet="[/apps/myproject/clientlibs/clientlib-site/css/site.css]"
+                                                    fieldLabel="Description"
+                                                    name="./desc3"/>
+                                                <image
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathbrowser"
+                                                    fieldLabel="Image"
+                                                    fileRefernceParameter="./fileRefrence"
+                                                    name="./img"
+                                                    title="Upload Image"/>
+                                            </items>
+                                        </field>
+                                    </options>
+                                    <link
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                        fieldLabel="Link URL"
+                                        name="./asset"
+                                        rootPath="/content"/>
+                                    <linkTitle
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Link Title"
+                                        name="./linkTitle"/>
+                                </items>
+                            </general>
+                        </items>
+                    </style>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
