@@ -1,0 +1,30 @@
+.tru-overlap{
+    &.tru-overlap--herobanner-featured{
+        padding-bottom: 348px;
+
+        .tru-overlap__container{
+            padding-bottom: 348px;
+        }
+        .tru-carousel__item{
+            max-width: 101.5rem;
+            margin: 0 auto;
+            padding-right: 0 !important;
+        }
+        .tns-inner{
+            margin: 0 !important;
+        }
+    }
+
+    &__container{
+        position: relative;
+        padding-top: 9.6rem;
+    }
+
+    &__item{
+        z-index: 1;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%,50%);
+    }
+}

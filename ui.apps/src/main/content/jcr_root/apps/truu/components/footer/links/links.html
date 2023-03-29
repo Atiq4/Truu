@@ -1,0 +1,28 @@
+<sly data-sly-use.cta="${'com.truu.core.models.MultifieldModel' @ property = 'links'}"></sly>
+<div class="cmp-links" data-sly-list.props="${cta.valueMaps}">
+    <div ><a href="${props.link}">${props.jcr:title @ context='html'}</a>
+</div>
+</div>
+<div data-sly-test="${wcmmode.edit && !cta.valueMaps}">Please edit the list of links</div>
+
+
+
+<style>
+
+
+.cmp-links{
+width: 244px;
+height: 300px;
+
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 50px;
+
+}
+
+
+
+</style>

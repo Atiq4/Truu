@@ -1,0 +1,7 @@
+<sly data-sly-test="${wcmmode.edit}">
+    <div class="cq-placeholder cq-marker-start" data-emptytext="Image Component"></div>
+</sly>
+<div class="tr-image text-left ${properties.alignment ? 'd-flex' : ''} ${properties.alignment} ${wcmmode.edit ? 'cq-dd-image' : ''}">
+    <img src="${properties.fileReference @ context='unsafe'}" alt="${properties.imageAltText}" width="${properties.width ? properties.width : ''}"
+         height="${properties.height ? properties.height : ''}" class="${properties.width || properties.height ? 'img-fluid' : ''} ${properties.imagestylesheet}"/>
+</div>

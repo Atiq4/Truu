@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Image Component"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true"
+                size="L">
+                <items jcr:primaryType="nt:unstructured">
+                    <image
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Image"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <image
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                allowUpload="{Boolean}false"
+                                autoStart="{Boolean}false"
+                                class="cq-droptarget"
+                                fieldLabel="Image"
+                                fileNameParameter="./fileName"
+                                fileNameReference="./fileReference"
+                                mimeTypes="[image]"
+                                name="./file"
+                                required="{Boolean}true"
+                                title="Upload Image Asset"
+                                uploadUrl="${suffix.path}"
+                                useHTML5="{Boolean}true"/>
+                        </items>
+                    </image>
+                    <settings
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Settings"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <display
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Display Options"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <responsive
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                        name="./imagestylesheet"
+                                        required="{Boolean}false"
+                                        text="Responsiveness">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <fullWidth
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                                cq-msm-lockable="imagestyleselect"
+                                                name="./imagestyleselect"
+                                                text="100% width"
+                                                value="w-100"/>
+                                            <auto
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                                cq-msm-lockable="imagestyleselect"
+                                                name="./imagestyleselect"
+                                                text="Auto width"
+                                                value=""/>
+                                        </items>
+                                    </responsive>
+                                    <imageAlignment
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                        class="coral-Form-fieldwrapper--2"
+                                        name="./alignment"
+                                        required="{Boolean}false"
+                                        text="Image Alignment">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <center
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                                checked="{Boolean}false"
+                                                cq-msm-lockable="alignment"
+                                                name="./alignment"
+                                                text="Center (default)"
+                                                value="justify-content-center"/>
+                                            <left
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                                checked="{Boolean}false"
+                                                cq-msm-lockable="alignment"
+                                                name="./alignment"
+                                                text="Left"
+                                                value="justify-content-start"/>
+                                            <right
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                                checked="{Boolean}false"
+                                                cq-msm-lockable="alignment"
+                                                name="./alignment"
+                                                text="Right"
+                                                value="justify-content-end"/>
+                                        </items>
+                                    </imageAlignment>
+                                </items>
+                            </display>
+                            <widthHeight
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Width and Height"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <widthHeight
+                                        jcr:primaryType="nt:unstructured"
+                                        jcr:title="Set Width and Height"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <width
+                                                granite:class="coral-Form-fieldwrapper--2"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                                fieldDescription="set explicit width for image"
+                                                fieldLabel="Width"
+                                                max="600"
+                                                min="2"
+                                                name="./width"
+                                                step="1"/>
+                                            <widthTypeHint
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
+                                                name="./width@TypeHint"
+                                                value="Long"/>
+                                            <height
+                                                granite:class="coral-Form-fieldwrapper--2"
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                                fieldDescription="set explicit width for image"
+                                                fieldLabel="Width"
+                                                max="600"
+                                                min="2"
+                                                name="./width"
+                                                step="1"/>
+                                        </items>
+                                    </widthHeight>
+                                </items>
+                            </widthHeight>
+                            <accessibility
+                                jcr:primaryType="nt:unstructured"
+                                jcr:title="Accessiliblity"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <imageAltText
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Alt text"
+                                        name="./imageAltText"/>
+                                </items>
+                            </accessibility>
+                        </items>
+                    </settings>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

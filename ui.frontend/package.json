@@ -55,7 +55,10 @@
     "webpack-dev-server": "^4.6.0",
     "webpack-merge": "^5.8.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap" : "^4.5.3",
+    "bootstrap-select":"^1.13.18"
+  },
   "browserslist": [
     "last 2 version",
     "> 1%"
