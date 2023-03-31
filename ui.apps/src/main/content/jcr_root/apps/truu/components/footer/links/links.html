@@ -5,24 +5,5 @@
 </div>
 <div data-sly-test="${wcmmode.edit && !cta.valueMaps}">Please edit the list of links</div>
 
-
-
-<style>
-
-
-.cmp-links{
-width: 244px;
-height: 300px;
-
-
-font-family: 'Satoshi';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 50px;
-
-}
-
-
-
-</style>
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+    <clientlib data-sly-call="${clientLib.all @ categories='truu.site'}" data-sly-unwrap/>

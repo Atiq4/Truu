@@ -1,0 +1,59 @@
+$color_1: #AAB8C2;
+$color_2: #00A5D0;
+$font-family_1: 'Satoshi';
+
+.cmp-location__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0px;
+	gap: 16px;
+	width: 191px;
+	height: 178px;
+}
+.cmp-location__title {
+	width: 191px;
+	height: 34px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 34px;
+}
+.cmp-location__area {
+	width: 348px;
+	height: 48px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: $color_1;
+	p {
+		margin: 0;
+	}
+}
+.cmp-location__phnno {
+	width: 290px;
+	height: 24px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: $color_1;
+	a {
+		text-decoration: none;
+		color: $color_1;
+	}
+}
+.cmp-location__link {
+	width: 78px;
+	height: 24px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: $color_2;
+}
