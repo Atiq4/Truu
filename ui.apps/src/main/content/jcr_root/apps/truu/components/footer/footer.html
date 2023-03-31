@@ -26,7 +26,7 @@
     <div class="bottom-copy">${properties.text @ context='html'}</div>
     <div class="bottom-list"> 
         <sly data-sly-use.cta="${'com.truu.core.models.MultifieldModel' @ property='links'}"></sly>
-                <ul class="d-flex" data-sly-list.props="${cta.valueMaps}">
+                <ul  data-sly-list.props="${cta.valueMaps}">
                     <li>
                         <a href="${props.link}" style="font-size:14px; color:grey;">${props.jcr:title}</a>
                     </li>
