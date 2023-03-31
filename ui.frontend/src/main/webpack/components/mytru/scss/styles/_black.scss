@@ -1,0 +1,68 @@
+$color_1: #AAB8C2;
+$color_2: #FFFFFF;
+$font-family_1: 'Satoshi';
+.cmp-mytru--black {
+
+.cmp-mytru {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 50px 50px;
+	gap: 48px;
+	isolation: isolate;
+	background: #051D3A;
+	position: relative;
+}
+.cmp-mytru__header {
+	left: 50px;
+	top: 128px;
+	line-height: 105px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	background: linear-gradient(95.12deg, #FFDBF1 -10.86%, #DAF4F2 25.4%, #7DCCF0 90.04%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.cmp-mytru__line {
+	width: 100%;
+	height: 0px;
+	opacity: 0.5;
+	border: 1px solid #445666;
+}
+.cmp-mytru__desc {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 46px;
+	color: $color_1;
+}
+.cmp-mytru__ecllipse {
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	top: 125px;
+	border-radius: 50%;
+	left: 70%;
+	background: #00A5D0;
+}
+.cmp-mytru__button {
+	position: absolute;
+	left: 16.11%;
+	top: 40%;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 34px;
+	color: $color_2;
+}
+.cmp-mytru__button-link {
+	text-decoration: none;
+	color: $color_2;
+}
+}
