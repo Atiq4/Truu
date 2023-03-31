@@ -229,7 +229,7 @@
                               
           <configuration>
                                     
-            <nodeVersion>18.15.0</nodeVersion>
+            <nodeVersion>v18.15.0</nodeVersion>
                                     
             <npmVersion>9.5.0</npmVersion>
                                 

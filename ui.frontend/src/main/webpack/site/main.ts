@@ -7,5 +7,3 @@ import "./**/*.js";
 import "./**/*.ts";
 import '../components/**/*.js';
 
-//BootStrap
-import 'bootstrap';

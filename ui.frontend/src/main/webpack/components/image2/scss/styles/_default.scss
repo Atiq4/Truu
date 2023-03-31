@@ -1,0 +1,29 @@
+
+ .cmp-image {
+	
+	.cmp-image__image {
+        margin-top: calc(14px / 2);
+        margin-bottom: calc(14px / 2);
+    	width: 100%;
+		height: auto;
+	}
+	
+	.cmp-image__title {
+		text-transform: uppercase;
+		font-size: 114px;
+		margin-top: -0.25em;
+		float: left;
+		font-family: Satoshi;
+		font-weight: 600;
+	}
+
+	.cmp-image__image--is-loading {
+		display: flex;
+		background-color: #EBEBEB;
+		/*background-image: url('../resources/images/loading-icon.svg');*/
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 60px 60px;
+	}
+	
+}

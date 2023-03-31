@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-03-31T01:44:50.783+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/truu/settings/wcm/templates/templatetru"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Inspiring-the-inspirational-demo"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <container
+                jcr:created="{Date}2023-03-31T01:26:55.025+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-31T01:27:31.393+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="truu/components/container">
+                <overlap_banner
+                    jcr:created="{Date}2023-03-31T01:44:09.589+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-31T01:44:50.781+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="truu/components/overlap-banner"
+                    sectionDescription="We are a results driven, customer focused digital agency. We strive to uncover new possibilities and help enterprises navigate the digital world with smart, boutique thinking paired with a relentless need to deliver impact!"
+                    sectionTitle="Inspiring the Inspirational"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

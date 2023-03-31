@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2023-03-31T02:42:05.312+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/truu/settings/wcm/templates/templatetru"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2023-03-31T01:26:48.484+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-31T01:26:48.484+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="truu/components/header"/>
+            <container
+                jcr:created="{Date}2023-03-31T01:26:55.025+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-31T01:26:55.025+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="truu/components/container"
+                editable="{Boolean}true"/>
+            <mytru
+                jcr:created="{Date}2023-03-31T01:27:38.450+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-31T01:31:17.228+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="truu/components/mytru"
+                text1="Let's work together."
+                text2="Start your Digital Journey with us Today!"/>
+            <footer
+                jcr:created="{Date}2023-03-31T01:27:51.798+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-03-31T01:34:31.066+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="truu/components/footer"
+                text="&lt;p>2022@Tru Inc.&lt;/p>&#xd;&#xa;">
+                <list
+                    jcr:lastModified="{Date}2023-03-31T01:40:43.551+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="truu/components/footer/links">
+                    <links jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Home"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="About"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Our Services"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="PortFolio"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Our Products"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Blog"/>
+                    </links>
+                </list>
+                <links jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Privacy Policy"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Cookie Policy"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Terms of Service"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Careers"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Contact Us"/>
+                </links>
+                <location
+                    jcr:lastModified="{Date}2023-03-31T01:43:02.625+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="truu/components/footer/location">
+                    <locationdetails jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            locationarea="Toronto, ON,&#xd;&#xa;M1R3K7, Canada"
+                            locationtitle="Tornoto."
+                            phnno="(905) 499-3621"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            locationarea="D-258, GR Tower, Industrial Area, Sector 75, Sahibzada Ajit Singh Nagar, Punjab 160071, India"
+                            locationtitle="Chandigarh"
+                            phnno="(905) 499-3621"/>
+                    </locationdetails>
+                </location>
+                <locations
+                    jcr:lastModified="{Date}2023-03-31T02:42:05.307+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="truu/components/footer/location"
+                    textIsRich="[true,true]">
+                    <locationdetails jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            locationarea="&lt;p>Toronto, ON, &lt;/p>&#xd;&#xa;&lt;p>M1R3K7, Canada&lt;/p>&#xd;&#xa;"
+                            locationtitle="Tornoto."
+                            phnno="(905) 499-3621"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            locationarea="&lt;p>Sukabumi 43359 &lt;/p>&#xd;&#xa;&lt;p>West Java, Indonesia&lt;/p>&#xd;&#xa;"
+                            locationtitle="Indonesia"/>
+                    </locationdetails>
+                </locations>
+                <locations2
+                    jcr:lastModified="{Date}2023-03-31T02:14:32.344+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="truu/components/footer/location">
+                    <locationdetails jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            locationarea="D-258, GR Tower, Industrial Area, Sector 75, Sahibzada Ajit Singh Nagar, Punjab 160071, India"
+                            locationtitle="Chandigarh."
+                            phnno="(905) 499-3621"/>
+                    </locationdetails>
+                </locations2>
+            </footer>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
