@@ -1,9 +1,11 @@
-$font-family_1: 'Satoshi';
+@import '../base/customfonts';
+
+$font-family: 'Satoshi-Variable';
 
 .cmp-links {
 	width: 244px;
 	height: 300px;
-	font-family: $font-family_1;
+	font-family: $font-family;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;

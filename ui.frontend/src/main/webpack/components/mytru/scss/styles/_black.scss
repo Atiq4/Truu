@@ -1,6 +1,8 @@
+@import '../../../../base/customfonts';
+
 $color_1: #AAB8C2;
 $color_2: #FFFFFF;
-$font-family_1: 'Satoshi';
+$font-family: 'Satoshi-Variable';
 .cmp-mytru--black {
 
 .cmp-mytru {
@@ -18,7 +20,7 @@ $font-family_1: 'Satoshi';
 	left: 50px;
 	top: 128px;
 	line-height: 105px;
-	font-family: $font-family_1;
+	font-family: $font-family;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 80px;
@@ -34,7 +36,7 @@ $font-family_1: 'Satoshi';
 	border: 1px solid #445666;
 }
 .cmp-mytru__desc {
-	font-family: $font-family_1;
+	font-family: $font-family;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
@@ -45,7 +47,7 @@ $font-family_1: 'Satoshi';
 	position: absolute;
 	width: 180px;
 	height: 180px;
-	top: 125px;
+	top: 113px;
 	border-radius: 50%;
 	left: 70%;
 	background: #00A5D0;
@@ -54,7 +56,7 @@ $font-family_1: 'Satoshi';
 	position: absolute;
 	left: 16.11%;
 	top: 40%;
-	font-family: $font-family_1;
+	font-family: $font-family;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;

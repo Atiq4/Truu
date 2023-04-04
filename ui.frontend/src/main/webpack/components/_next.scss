@@ -1,8 +1,7 @@
-$color_1: #051D3A;
-$font-family_1: 'Satoshi-Bold';
-$font-family_2: 'Satoshi-Regular';
-$font-family_3: 'Satoshi';
+@import '../base/customfonts';
 
+$color_1: #051D3A;
+$font-family: 'Satoshi-Variable';
 
 .cmp-next {
 	display: flex;
@@ -43,7 +42,7 @@ $font-family_3: 'Satoshi';
 	h3 {
 		width: 610px;
 		height: 46px;
-		font-family: $font-family_1;
+		font-family: $font-family;
 		font-style: normal;
 		font-weight: 700;
 		font-size: 36px;
@@ -54,7 +53,7 @@ $font-family_3: 'Satoshi';
 	p {
 		width: 610px;
 		height: 60px;
-		font-family: $font-family_2;
+		font-family: $font-family;
 		font-style: normal;
 		font-weight: 400;
 		font-size: 20px;
@@ -74,7 +73,7 @@ $font-family_3: 'Satoshi';
 	h2 {
 		width: 476px;
 		height: 74px;
-		font-family: $font-family_3;
+		font-family: $font-family;
 		font-style: normal;
 		font-weight: 700;
 		font-size: 64px;
