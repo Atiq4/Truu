@@ -1,0 +1,13 @@
+
+<div class="cmp-provide">
+<div class="cmp-provide__heading">${properties.heading}</div>
+<div  data-sly-list="${resource.listChildren}">
+		<div class="cmp-provide__container" data-sly-list.object="${item.listChildren}">
+		    <div class="cmp-provide__card">
+                <h5>${object.number}<svg width="40px" height="2px"><rect width="40px" height="2px" style="fill:#051D3A;"/></svg></h5>
+                <h4>${object.jcr:title}</h4>
+                <span>${object.text @ context ='unsafe'}</span>
+            </div> 
+        </div>
+    </div>
+</div>
