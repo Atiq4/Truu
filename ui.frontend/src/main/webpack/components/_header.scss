@@ -1,3 +1,6 @@
+@import '../base/customfonts';
+
+$font-family: 'Satoshi-Variable';
 $color_1: #000;
 $color_2: white;
 $color_3: black;
@@ -8,7 +11,6 @@ $background-color_1: black;
 	margin: 0;
 }
 .tru-header__top {
-	border: 1px solid skyblue;
 	display: flex;
 	justify-content: end;
 }
@@ -16,6 +18,8 @@ $background-color_1: black;
 	margin: 0 20px;
 	a {
 		color: $color_1;
+		font-family: $font-family;
+		text-decoration: none;
 	}
 }
 .tru-topright {
@@ -33,6 +37,7 @@ $background-color_1: black;
 	padding: 50px 0;
 	width: 216px;
 	height: 26px;
+	font-family: $font-family;
 }
 .tru-search {
 	padding: 30px 0;
@@ -48,6 +53,7 @@ $background-color_1: black;
 	border-radius: 200px;
 	width: 228px;
 	height: 54px;
+	font-family: $font-family;
 }
 .tru-nav {
 	margin: 0 auto;
@@ -61,6 +67,7 @@ $background-color_1: black;
 			a {
 				text-decoration: none;
 				color: $color_3;
+				font-family: $font-family;
 			}
 		}
 	}
