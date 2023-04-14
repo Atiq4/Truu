@@ -25,7 +25,7 @@
                                 sling:resourceType="cq/gui/components/authoring/dialog/richtext"
                                 externalStyleSheets="[/apps/mytru/clientlibs/clientlib-site/css/site.css]"
                                 name="./text"
-                                required="{Boolean}true"
+                                required="{Boolean}false"
                                 richTextFlagPropertyName="textIsRich"
                                 useFixedInlineToolbar="{Boolean}true">
                                 <rtePlugins jcr:primaryType="nt:unstructured">
