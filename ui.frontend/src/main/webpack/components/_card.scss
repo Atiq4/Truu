@@ -1,0 +1,88 @@
+@import '../base/customfonts';
+
+$font-family: 'Satoshi-Variable';
+$color_1: #051D3A;
+
+.cmp-card__container {
+    position: relative;
+    width: 100%;
+    margin: 20px;
+}
+     
+ .cmp-card__left{
+    box-sizing: border-box;
+    background: radial-gradient(619.36% 221.04% at 186.63% -87.41%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 60px;
+    gap: 60px;
+    width: 40%;
+    position: relative;
+    left: 8%;
+        h3{
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 46px;
+            color: $color_1;
+            margin: 0;
+        }
+        span{
+            font-family: $font-family;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: $color_1;
+            margin: 0;
+            p{
+                margin: 0;
+            }
+        }
+    }
+    
+    .cmp-card__right 
+    {
+    box-sizing: border-box;
+    background: radial-gradient(619.36% 221.04% at 186.63% -87.41%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 60px;
+    gap: 60px;
+    width: 40%;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    h3{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: $color_1;
+        margin: 0;
+    }
+    span{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: $color_1;
+        margin: 0;
+        p{
+            margin: 0;
+        }
+    }
+   }

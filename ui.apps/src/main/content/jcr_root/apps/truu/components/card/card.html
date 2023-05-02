@@ -1,0 +1,20 @@
+
+<div data-sly-list="${resource.listChildren}" class="cmp-card__container">
+
+    <div data-sly-list.card="${item.listChildren}">
+        <div data-sly-test="${cardList.odd}" class="cmp-card__left">
+
+            <img src="${card.fileReference}" height="128px" width="128px">
+            <h3>${card.jcr:title}</h3>
+            <span>${card.text @ context='unsafe'}</span>
+        </div>
+
+
+        <div data-sly-test="${cardList.even}" class="cmp-card__right">
+
+            <img src="${card.fileReference}" height="128px" width="128px">
+            <h3>${card.jcr:title}</h3>
+            <span>${card.text @ context='unsafe'}</span>
+        </div>
+    </div>
+</div>
