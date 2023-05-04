@@ -1,0 +1,28 @@
+<h2 data-sly-test="${wcmmode.edit}" data-sly-text="Please configure Jobs Openings"></h2>
+<div class="cmp-jobheading">
+	<h1>${properties.heading}</h1>
+</div>
+
+<div data-sly-list="${resource.listChildren}" class="cmp-jobcontainer">
+
+	<sly data-sly-list.jobdescription="${item.listChildren}">
+
+		<div class="cmp-jobcon1">
+			<p class="jobbadge">${jobdescription.jobexperience}</p>
+
+			<h3>${jobdescription.jobtitle}</h3>
+
+		</div>
+		<sly data-sly-list.job="${jobdescription.listChildren}">
+
+			<div data-sly-list.jobdetails="${job.listChildren}" class="cmp-jobcon2">
+				<span>${jobdetails.details}</span>
+				<span>${jobdetails.joblocation}</span>
+				<span>${jobdetails.remote}</span>
+				<img src="${jobdetails.fileReference}" href="${jobdetails.pathtojobpage}" height="48px" width="48px" />
+
+			</div>
+		</sly>
+	</sly>
+</div>
+

@@ -1,0 +1,82 @@
+@import '../base/customfonts';
+
+$font-family: 'Satoshi-Variable';
+$color_1: #051D3A;
+$color_2: #445666;
+$color_3: #000;
+$color_4: #fff;
+$border-color_1: #D5D9DD;
+
+.cmp-jobheading {
+	h1 {
+		font-family: $font-family;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 96px;
+		line-height: 106px;
+		margin: 0;
+		padding: 50px;
+		color: $color_1;
+	}
+}
+.cmp-jobcontainer {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 32px 50px;
+	border-width: 1px 0px;
+	border-style: solid;
+	border-color: $border-color_1;
+	&:hover {
+		background: #00A5D0;
+	}
+}
+.cmp-jobcon1 {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	h3 {
+		font-family: $font-family;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 46px;
+		color: $color_3;
+		margin: 0;
+		&:hover {
+			color: $color_4;
+		}
+	}
+}
+.cmp-jobcon2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 12px;
+	img {
+		position: relative;
+		left: 300%;
+	}
+	span {
+		font-family: $font-family;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		color: $color_3;
+	}
+}
+.jobbadge {
+	padding: 4px 24px;
+	background: #F5F8FA;
+	border-radius: 100px;
+	font-family: $font-family;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: $color_2;
+	margin: 0;
+	width: 60%;
+}
