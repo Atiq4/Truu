@@ -1,0 +1,41 @@
+@import '../../../../base/customfonts';
+
+$font-family: 'Satoshi-Variable';
+.cmp-trucom--style3{
+.cmp-trucom__container {
+    display: flex;
+    background-color: #000;
+    padding: 50px;
+    align-items: flex-start;
+    gap: 48px;
+
+    h1 {
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 106px;
+        background: linear-gradient(95.12deg, #FFDBF1 -10.86%, #DAF4F2 25.4%, #7DCCF0 90.04%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin: 0;
+    }
+}
+
+.cmp-trucom__description {
+
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #AAB8C2;
+
+    
+    p{
+        margin: 0;
+    }
+
+}
+}

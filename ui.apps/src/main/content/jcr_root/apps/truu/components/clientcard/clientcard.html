@@ -1,12 +1,12 @@
 
 <div class="cmp-client">
 <sly data-sly-list="${resource.listChildren}" >
-	<sly data-sly-list.clientcard="${item.listChildren}"> 
-	<div class="cmp-clientcard">
+	<sly  data-sly-list.clientcard="${item.listChildren}"> 
+		<div class="cmp-clientcard">
 	<img src="${clientcard.fileReference}" alt=${clientcard.alttext}/>
 	<span><h2>${clientcard.cardtitle}</h2>
 	<a href="${clientcard.cardlink}">${clientcard.cardlabel}</a></span>
 	</div>
-</sly>
+	</sly>
 </sly>
 </div>
