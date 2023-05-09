@@ -1,0 +1,47 @@
+
+@import '../../../../base/customfonts';
+
+$font-family: 'Satoshi-Variable';
+$color_1: #051D3A;
+$color_2: black;
+$color_3: #445666;
+.cmp-client--doublecard{
+
+
+.cmp-client {
+	display: flex;
+	gap: 4px;
+	padding: 50px 106px;
+}
+.cmp-clientcard {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	margin: 0;
+	align-items: flex-start;
+	img {
+		width: 70%;
+	}
+	h2 {
+		align-self: flex-start;
+		margin: 0;
+		font-family: $font-family;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 40px;
+		color: $color_1;
+	}
+	a {
+		text-decoration: none;
+		color: $color_2;
+		align-self: flex-start;
+		font-family: $font-family;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		color: $color_3;
+	}
+}
+}

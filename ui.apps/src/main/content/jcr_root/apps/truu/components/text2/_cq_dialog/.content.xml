@@ -24,6 +24,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="cq/gui/components/authoring/dialog/richtext"
                                 externalStyleSheets="[/apps/mytru/clientlibs/clientlib-site/css/site.css]"
+                                fieldLabel="Description"
                                 name="./text"
                                 required="{Boolean}false"
                                 richTextFlagPropertyName="textIsRich"
