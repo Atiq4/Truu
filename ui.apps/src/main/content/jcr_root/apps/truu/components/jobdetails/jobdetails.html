@@ -1,3 +1,4 @@
+<sly data-sly-use.jobdetails="com.truu.core.models.Jobdetails"></sly>
 <div class="cmp-jobdetails__container">
     <div class="cmp-jobdetails__leftside">
         <span>Share this job:
@@ -52,11 +53,11 @@
             ${properties.text @context='html'}
         </span>
         <h5>What we need from you</h5>
-        <ul data-sly-list="${properties.jobskills}">
+        <ul data-sly-list="${jobdetails.jobskills}">
             <li>${item}</li>
         </ul>
         <h5>What you need to land it:</h5>
-        <ul data-sly-list="${properties.keyskills}">
+        <ul data-sly-list="${jobdetails.keyskills}">
             <li>${item}</li>
         </ul>
     </div>
