@@ -1,0 +1,14 @@
+
+<div class="cmp-ourteam__container">
+    <h1>${properties.teamtitle}</h1>
+    <span>${properties.teamdescription}</span>
+    <div data-sly-list="${resource.listChildren}">
+        <div data-sly-list.employee="${item.listChildren}" class="cmp-ourteam__employee">
+            <div class="cmp-ourteam__employeedetails">
+                <img src="${employee.fileReference}">
+                <h6>${employee.employeename}</h6>
+                <span>${employee.employeedesignation}</span>
+            </div>
+        </div>
+    </div>
+</div>

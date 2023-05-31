@@ -1,0 +1,148 @@
+@import '../base/customfonts';
+
+$font-family:'Satoshi-Variable';
+.tru-bythenumbers{
+    display: flex;
+    flex-direction: column;
+    background: #051D3A;
+    padding: 15px;
+    h2{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        background: linear-gradient(95.12deg, #FFDBF1 -10.86%, #DAF4F2 25.4%, #7DCCF0 90.04%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin: 0;
+    }
+}
+.tru-bythenumbers__container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background: #051D3A;
+}
+.tru-bythenumbers__gitcommits{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid linear-gradient(305.01deg, #48C1C5 -18.85%, #00A4CF 48.43%);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(305.01deg, #48C1C5 -18.85%, #00A4CF 48.43%);
+    height: 155px;
+    h4{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+        margin: 0;
+        padding: 0px 10px;
+        
+    }
+    p{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+}
+.tru-bythenumbers__users{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #FBE940 0%, #FB409A 99.95%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid  linear-gradient(135deg, #FBE940 0%, #FB409A 99.95%);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    height: 200px;
+    h4{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 90px;
+        color: #051D3A;
+        margin: 0;
+    }
+    p{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #051D3A;
+        margin: 0;
+    }
+}
+.tru-bythenumbers__appsandplugins{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(305.01deg, #48C1C5 -18.85%, #00A4CF 48.43%);
+    border: 2px solid linear-gradient(305.01deg, #48C1C5 -18.85%, #00A4CF 48.43%);;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+    h4{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    p{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+}
+.tru-bythenumbers__projectsdone{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid linear-gradient(95.12deg, #FFDBF1 -10.86%, #DAF4F2 25.4%, #7DCCF0 90.04%);;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(95.12deg, #FFDBF1 -10.86%, #DAF4F2 25.4%, #7DCCF0 90.04%);
+    height: 300px;
+    padding: 20px;
+    h4{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 112px;
+        line-height: 112px;
+        color: #051D3A;
+        margin: 0;
+    }
+    p{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #051D3A;
+        margin: 0;
+    }
+}

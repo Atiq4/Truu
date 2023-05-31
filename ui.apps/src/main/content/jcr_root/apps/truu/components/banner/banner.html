@@ -1,0 +1,31 @@
+<div class="cmp-banner">
+<div data-sly-test="${properties.variant == 'v1'}" class="cmp-bannerv1">
+        <div class="cmp-bannerv1__button">
+            <button class="cmp-bannerv1__button-inside" type="button" href="${properties.link}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="51" height="9" viewBox="0 0 51 9" fill="none">
+                <path d="M20.1469 9.79686L20.9437 8.99999L20.1469 8.20311L12.9469 1.00311L12.15 0.206238L10.5609 1.7953L11.3578 2.59218L16.6359 7.87499H1.125H0V10.125H1.125H16.6312L11.3531 15.4031L10.5562 16.2L12.1453 17.7891L12.9422 16.9922L20.1469 9.79686Z"
+                fill="#051D3A" />
+                </svg>${properties.label}</button>
+        </div>
+        <div class="cmp-bannerv1__heading">${properties.heading}</div>
+        <div class="cmp-bannerv1__para">${properties.description}</div>
+    </div>
+</div>
+<div data-sly-test="${properties.variant == 'v2'}" class="cmp-bannerv2">
+    <div class="cmp-bannerv2__button">
+            <button class="cmp-bannerv2__button-inside" type="button" href="${properties.link}">
+                ${properties.label}</button>
+        </div>
+        <div class="cmp-bannerv2__heading">${properties.heading}</div>
+        <div class="cmp-bannerv2__para">${properties.description}</div>
+        <div class="cmp-bannerv2__downbutton">
+            <button type="button" href="${properties.jobpage}">${properties.jobopen}</button>
+            <span>${properties.joblocation}</span>
+            <span>${properties.remote}</span>
+        </div>
+</div>
+<div data-sly-test="${properties.variant == 'v3'}" class="cmp-banner3v">
+    <div class="cmp-banner3v__heading">${properties.heading}</div>
+    <div class="cmp-banner3v__para">${properties.description}</div>
+</div>
+</div>

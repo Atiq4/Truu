@@ -1,0 +1,24 @@
+<div class="tru-bythenumbers">
+	<h2>${properties.heading}</h2>
+	<div class="tru-bythenumbers__container">
+		<div class="tru-bythenumbers__gitcommits">
+			<h4>${properties.commitcount}</h4>
+			<p>${properties.commitlabel}</p>
+		</div>
+
+		<div class="tru-bythenumbers__users">
+			<h4>${properties.userscount}</h4>
+			<p>${properties.userslabel}</p>
+		</div>
+
+		<div class="tru-bythenumbers__appsandplugins">
+			<h4>${properties.appsandpluginscount}</h4>
+			<p>${properties.text @ context='html'}</p>
+		</div>
+
+		<div class="tru-bythenumbers__projectsdone">
+			<h4>${properties.projectsdone}</h4>
+			<p>${properties.projectsdonelabel}</p>
+		</div>
+	</div>
+</div>

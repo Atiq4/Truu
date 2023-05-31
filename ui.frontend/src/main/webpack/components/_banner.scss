@@ -1,0 +1,151 @@
+@import '../base/customfonts';
+
+$font-family:'Satoshi-Variable';
+$color_1: #051D3A;
+$color_2: #445666;
+$background-color_1: transparent;
+.cmp-banner{
+	background: linear-gradient(45deg,orange 0%, #fff 30%,#ECFCFF 50%);
+}
+.cmp-bannerv1 {
+	width: 100%;
+	background: linear-gradient(244deg,#ecfcff 20%,#fff 80%,#FFD580);
+	padding: 170px 50px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.cmp-bannerv1__button {
+	font-family: $font-family;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: $color_1;
+}
+.cmp-bannerv1__button-inside {
+	background-color: $background-color_1;
+	color: $color_1;
+	border-radius: 200px;
+	width: 20%;
+    padding: 10px;
+}
+.cmp-bannerv1__heading {
+	font-family: $font-family;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 200px;
+	line-height: 256px;
+	background: linear-gradient(294.42deg, #1CA0A5 -10.52%, #042955 73.2%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.cmp-bannerv1__para {
+	font-family: $font-family;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 34px;
+	color: $color_2;
+}
+.cmp-bannerv2 {
+	width: 100%;
+	background: linear-gradient(135deg,#ecfcff,#f0f9fc);
+	padding: 170px 50px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.cmp-bannerv2__button {
+	font-family: $font-family;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: $color_1;
+}
+.cmp-bannerv2__button-inside {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+	background-color: $background-color_1;
+	color: $color_1;
+	border-radius: 200px;
+	width: 20%;
+    padding: 10px;
+}
+.cmp-bannerv2__heading {
+	font-family: $font-family;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 96px;
+	line-height: 106px;
+	background: linear-gradient(294.42deg, #1CA0A5 -10.52%, #042955 73.2%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+.cmp-bannerv2__para {
+	font-family: $font-family;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 34px;
+	color: $color_2;
+}
+.cmp-bannerv2__downbutton{
+	display: flex;
+	width: 30%;
+    justify-content: space-around;
+    margin: 0;
+	button{
+		background: #16B34B;
+		border-radius: 100px;
+		font-family: $font-family;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 26px;
+		color: #FFFFFF;
+	}
+	span{
+		font-family: $font-family;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		color: #445666;
+	}
+}
+.cmp-banner3v{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+	background: linear-gradient(244deg,#ecfcff 20%,#fff 80%,#FFD580);
+    padding: 170px 50px;
+}
+.cmp-banner3v__heading{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 200px;
+        line-height: 210px;
+        background: linear-gradient(294.42deg, #1CA0A5 -10.52%, #042955 73.2%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin: 0;
+    }
+.cmp-banner3v__para{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #445666;
+	}

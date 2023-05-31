@@ -1,0 +1,26 @@
+@import '../base/customfonts';
+
+$font-family:Satoshi-Variable;
+
+.cmp-brand__container{
+    background-color: #FFFFFF;
+    h1{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 106px;
+        background: linear-gradient(95.12deg, #FFDBF1 -10.86%, #DAF4F2 25.4%, #7DCCF0 90.04%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        text-align: center;
+        margin-top: 0;
+        padding: 50px;
+    }
+}
+.cmp-brand__brands{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,22 @@
+<div class="tru-blog">
+    <div data-sly-list="${resource.listChildren}">
+        <div class="tru-blog__content" data-sly-list.blogdetails="${item.listChildren}">
+            <div class="tru-blog__content--blogdetails">
+                <span class="tru-blog__postedby">
+                <img src="${blogdetails.companylogo}" width="48px" height="48px">
+                <span class="tru-blog__posted">
+                    <p>${blogdetails.postedbycompany}</p>
+                    <h6>${blogdetails.companyname}</h6>
+                </span>
+                </span>
+                <h5>${blogdetails.blogtitle}</h5>
+                <span class="tru-blog__posted--on">
+                    <p class="tru-blog__posted--on--active">${blogdetails.expertisename}</p>
+                    <p>${blogdetails.postedondate}</p>
+                    <p>${blogdetails.blogpost}</p>
+                </span>
+                <img src="${blogdetails.blogimage}" width="${blogdetails.blogimagewidth}" height="${blogdetails.blogimageheight}">
+            </div>
+        </div>
+    </div>
+</div>

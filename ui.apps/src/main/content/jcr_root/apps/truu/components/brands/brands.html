@@ -1,0 +1,11 @@
+
+<div class="cmp-brand__container">
+    <h1>${properties.heading}</h1>
+    <div class="cmp-brand__brands">
+        <sly data-sly-list="${resource.listChildren}">
+            <sly data-sly-list.brand="${item.listChildren}">
+                <a href="${brand.brandurl}"><img src="${brand.fileReference}" ></a>
+            </sly>
+        </sly>
+    </div>
+</div>

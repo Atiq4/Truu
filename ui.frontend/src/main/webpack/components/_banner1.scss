@@ -1,0 +1,33 @@
+@import '../base/customfonts';
+
+$font-family:'Satoshi-Variable';
+
+.cmp-banner1{
+    position: relative;
+.cmp-banner1__vector{
+    display:flex;
+    align-items: center;
+    background: linear-gradient(135deg, #ECFCFF 0%, #F0F9FC 100%);
+    gap: 16px;
+    position: relative;
+    h1{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 160px;
+        line-height: 170px;
+        background: linear-gradient(294.42deg, #1CA0A5 -10.52%, #042955 73.2%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}
+.cmp-banner1__image{
+    svg{
+    position: absolute;
+    left: 80%;
+    top: 88%;
+    }
+}
+}

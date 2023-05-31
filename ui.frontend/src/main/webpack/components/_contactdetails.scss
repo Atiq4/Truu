@@ -1,0 +1,75 @@
+@import '../base/customfonts';
+
+$font-family:'Satoshi-Variable';
+
+.cmp-contactdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 50px;
+    background-color: #000000;
+    h1{
+        margin: 0;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 144px;
+        line-height: 196px;
+        background: linear-gradient(95.12deg, #FFDBF1 -10.86%, #DAF4F2 25.4%, #7DCCF0 90.04%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}
+.cmp-contactdetails__down{
+    display: flex;
+    gap: 16px;
+.cmp-contactdetails__email{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    span{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #AAB8C2;
+    }
+    a{
+        text-decoration: none;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: #FFFFFF;
+    }
+}
+
+.cmp-contactdetails__phone{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    h6{
+        margin: 0;
+        text-decoration: none;
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        color: #FFFFFF;
+    }
+    span{
+        font-family: $font-family;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #AAB8C2;
+    }
+
+}
+}
